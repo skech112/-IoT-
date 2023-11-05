@@ -21,7 +21,7 @@ Serial p;
 Server s;
 Client c;
 void setup() {
-  p = new Serial(this, "COM7", 9600);
+  p = new Serial(this, "COM6", 9600);
   s = new Server(this, 123);
 }
 String msg="hi";
